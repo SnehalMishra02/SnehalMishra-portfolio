@@ -1,0 +1,36 @@
+import React from 'react'
+import BlogCard from './BlogCard'
+
+
+const Hero = () => {
+  return (
+    <div className="bg-gradient-to-b from-[#1e3c72] via-[#1e3c72] via-29% to-[#2a5298] to-82% h-screen w-full" id='Me'>
+      <div className='grid h-full grid-cols-4 grid-rows-3 p-3'>
+        <div className='row-span-2 col-span-2 flex items-center justify-center'>
+          <div className=' bg-white h-[80%] w-[50%] rounded-full '></div>
+        </div>
+        <div className='col-span-2 row-span-1'>
+          <h1 className='text-[3em] font-extrabold text-white'>
+            Hey, I am Snehal Mishra
+          </h1>
+          <h2 className='text-[150%] font-semibold text-white italic p-2 rounded'>
+          A Computer Science student and an ever-curious tech explorer 💻, always diving deeper into the world of all things tech related🤿. When I’m not building applications or experimenting with new tech, you’ll find me on the field as a sportsman ⚽ or immersed in a gaming session 🎮.
+          </h2>
+          <br />
+          <a href="#Connect" className='bg-cyan-300 hover:bg-pink-300 p-3 hover:p-4 rounded-2xl shadow-lg shadow-pink-300 hover:shadow-cyan-300 font-semibold text-slate-800 '>Connect Now</a>
+        </div>
+
+        {/* Blogs */}
+        <div className='row-start-3 col-span-4 p-2 flex items-center gap-7'>
+          <h1 className='text-white text-2xl font-extrabold mr-11'>Read My Thoughts On: </h1>
+          <BlogCard image="b1.avif" title="Upcoming! 🤚"/>
+          <BlogCard image="b1.avif" title="Upcoming! 🤚"/>
+          <BlogCard image="b1.avif" title="Upcoming! 🤚"/>
+          <BlogCard image="b1.avif" title="Upcoming! 🤚"/>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Hero
