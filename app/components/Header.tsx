@@ -38,7 +38,7 @@ const Header = () => {
         </div>
 
         {/* Mobile Menu Toggle */}
-        <div className="md:hidden flex items-center top-0 fixed">
+        <div className="md:hidden flex items-center">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-white text-2xl">
             {menuOpen ? <FiX /> : <FiMenu />}
           </button>
