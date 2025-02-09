@@ -32,6 +32,7 @@ export default function Timeline() {
       },
     });
     setSwiperInstance(swiper);
+    console.log(swiperInstance)
   }, []);
 
   return (
