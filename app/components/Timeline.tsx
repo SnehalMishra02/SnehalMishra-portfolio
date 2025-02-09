@@ -5,16 +5,17 @@ import Swiper from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import './file.css'
 
 const data = [
-  { dateLabel: '19th March 2004', title: 'Spawn Point 🎮' },
+  { dateLabel: '19/03/04', title: 'Spawn Point 🎮' },
   { dateLabel: '2009', title: "Joined The Mother's International School 🕊️" },
   { dateLabel: '2008', title: 'Got My First PC 🖥️' },
   { dateLabel: '2010', title: 'Started Playing Football ⚽' },
   { dateLabel: '2020', title: 'Started Coding in Python 💻' },
-  { dateLabel: 'November 2020', title: 'Adopted Bolt (My Dog) 🐶' },
-  { dateLabel: 'July 2022', title: 'Graduated High School 👨‍🏫' },
-  { dateLabel: 'September 2022', title: 'Began B.Tech in IT @ VIT, Vellore 👨‍🎓' },
+  { dateLabel: '11/2020', title: 'Adopted Bolt (My Dog) 🐶' },
+  { dateLabel: '07/2022', title: 'Graduated High School 👨‍🏫' },
+  { dateLabel: '09/2022', title: 'Began B.Tech in IT @ VIT, Vellore 👨‍🎓' },
 ];
 
 export default function Timeline() {
@@ -34,12 +35,12 @@ export default function Timeline() {
   }, []);
 
   return (
-    <div className="container mx-auto p-8">
+    <div className="container mx-auto p-8 pr-0 mr-0 overflow-y-hidden scroll1">
       <h1 className="text-[250%] font-extrabold text-white text-center mb-4">Milestones and Moments</h1>
       <div className="swiper-container">
         <div className="swiper-control flex justify-end gap-2 mb-4">
         </div>
-        <div className="swiper-wrapper timeline">
+        <div className="swiper-wrapper timeline ">
           {data.map((item, index) => (
             <div key={index} className="swiper-slide text-center">
               <div className="timestamp">

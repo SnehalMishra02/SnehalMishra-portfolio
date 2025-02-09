@@ -3,12 +3,12 @@ import "./ProjectCard.css";
 
 const ProjectCard: React.FC = ({img, first, second}) => {
   return (
-    <div className="card m-3">
+    <div className="card m-3 z-[5] min-w-[210px] min-h-[295px]">
       <div className="first-content">
         <span className="flex flex-col h-full w-auto"><img src={img} alt="Project" />{first}</span>
       </div>
       <div className="second-content">
-        <span>{second}</span>
+        <span className="text-sm">{second}</span>
       </div>
     </div>
   );

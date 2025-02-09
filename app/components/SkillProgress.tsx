@@ -15,7 +15,7 @@ const SkillProgress = ({title, skills}) => {
   return (
 
     <div className='m-2'>
-    <div className='relative w-[15vw] h-3 bg-gray-800 p-5 rounded-lg rounded-b-none flex justify-start items-center'>
+    <div className='relative w-[15vw] h-3 bg-gray-800 p-5 rounded-lg rounded-b-none min-w-[210px] flex justify-start items-center'>
         <h2 className='text-white text-lg '>{title}</h2>
     </div>
     <div className="relative max-w-md w-full bg-gray-900 p-5 rounded-lg rounded-t-none">

@@ -19,7 +19,7 @@ const Mail = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-3xl">
+    <div className="max-w-lg p-6 bg-white shadow-lg rounded-3xl">
       <h2 className="text-2xl font-semibold text-gray-800 mb-4">Send a mail</h2>
       <div className="space-y-4">
         <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Your Name" className="w-full p-2 border border-gray-300 rounded" />

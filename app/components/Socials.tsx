@@ -2,8 +2,8 @@ import React from 'react'
 import SocialButton from './SocialButton'
 const Socials = () => {
   return (
-    <div className='w-full h-[30%] flex items-center justify-center'>
-        <div className='bg-white w-[90%] h-full rounded-3xl flex items-center justify-center'>
+    <div className='w-full min-h-[30%] h-fit flex items-center justify-center'>
+        <div className='bg-white w-[90%] h-full rounded-full flex items-center justify-center p-5 md:min-w-[500px]'>
             <SocialButton clr="pink-300" img="Instagram.png" link="https://www.instagram.com/snehal.mishraa/"/>
             <SocialButton clr="blue-300" img="linkedin.png" link="https://www.linkedin.com/in/snehal-mishra-2618b2199/"/>
             <SocialButton clr="blue-300" img="leetcode.png" link="https://leetcode.com/u/SnehalMishra/"/>

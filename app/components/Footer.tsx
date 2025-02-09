@@ -1,3 +1,4 @@
+import Link from "next/link";
 const Footer = () => {
     return (
       <footer className="bg-gray-900 text-white py-6">
@@ -5,7 +6,7 @@ const Footer = () => {
           <p className="text-sm">&copy; {new Date().getFullYear()} <span className="text-yellow-500 font-bold">Snehal Mishra.</span> All rights reserved.</p>
           <div className="flex justify-center space-x-4 mt-4">
             <a href="/#" className="hover:text-gray-400">Back to Top</a>
-            <a href="#Connect" className="hover:text-gray-400">Contact</a>
+            <a href="/#Connect" className="hover:text-gray-400">Contact</a>
           </div>
           <div className="flex justify-center space-x-4 mt-4">
             <a href="https://www.instagram.com/snehal.mishraa/" aria-label="Instagram" target="_blank" className="hover:text-gray-400 text-pink-200">Instagram</a>

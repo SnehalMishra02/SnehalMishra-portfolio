@@ -8,7 +8,7 @@ const BlogCard = ({image, title}) => {
 
   return (
     <div
-      className="w-[254px] h-[254px] rounded-2xl transition-all duration-300 bg-gradient-to-br from-[#5ffffa] to-[#ff00e6] shadow-lg"
+      className=" mx-3 w-[254px] h-[254px] rounded-2xl transition-all duration-300 bg-gradient-to-br from-[#5ffffa] to-[#ff00e6] shadow-lg"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
