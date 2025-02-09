@@ -10,10 +10,10 @@ const Hero = () => {
           <img className='max-h-[90%]' src="Me.png" alt="me" /></div>
         
         <div className='col-span-2 row-span-1 max-sm:col-span-4'>
-          <h1 className='text-[300%] font-extrabold text-white text-center'>
+          <h1 className='text-[300%] font-extrabold text-white text-center max-sm:text[250%]'>
             Hey, I am Snehal Mishra
           </h1>
-          <h2 className='text-[150%] font-semibold text-white italic p-2 rounded max-md:text-[110%]'>
+          <h2 className='text-[150%] font-semibold text-white italic p-2 rounded max-md:text-[90%]'>
           A Computer Science student and an ever-curious tech explorer 💻, always diving deeper into the world of all things tech related🤿. When I’m not building applications or experimenting with new tech, you’ll find me on the field as a sportsman ⚽ or immersed in a gaming session 🎮.
           </h2>
           <br />

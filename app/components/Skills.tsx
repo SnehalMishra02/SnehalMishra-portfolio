@@ -47,7 +47,7 @@ const Skills = () => {
         <div className="bg-gradient-to-b from-[#7950f2] via-[#7950f2] via-5% to-[#f783ac] to-95% min-h-screen h-auto w-full" id="Skills">
             <WaveDivider clr="#56b2d4"/>
             <h1 className='text-white text-[250%] px-6 py-2 font-extrabold mt-7 text-center'>My Skills</h1>
-            <div className='m-3 mb-0 p-2 h-full w-full flex flex-wrap  justify-center items-start'>
+            <div className='m-3 mb-0 mr-0 pr-0 p-2 h-full w-[99vw] flex flex-wrap  justify-center items-start '>
               <SkillProgress title = "Web Front-end" skills = {basicFrontEnd}/>
               <SkillProgress title = "DataBase Management" skills = {DBMS}/>
               <SkillProgress title = "Web Back-end" skills = {Backend}/>
