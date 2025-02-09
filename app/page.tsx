@@ -7,7 +7,7 @@ import Connect from './components/Connect';
 import Footer from './components/Footer';
 export default function Home() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Header></Header>
       <Hero/>
       <Skills/>
