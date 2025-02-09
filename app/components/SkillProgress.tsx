@@ -26,7 +26,7 @@ const SkillProgress: React.FC<SkillProgressProps> = ({ title, skills }) => {
     <div className="m-2">
       {/* Title Section */}
       <div className="relative w-[15vw] h-3 bg-gray-800 p-5 rounded-lg rounded-b-none min-w-[210px] flex justify-start items-center">
-        <h2 className="text-white text-lg">{title}</h2>
+        <h2 className="text-white text-lg p-2">{title}</h2>
       </div>
 
       {/* Skill Bars */}
