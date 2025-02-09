@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import clsx from 'clsx';
-import Image from 'next/image';
 
 // Define TypeScript Props
 interface BlogCardProps {
