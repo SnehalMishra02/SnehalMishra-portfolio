@@ -1,6 +1,5 @@
 import React from 'react'
 import Mail from './Mail'
-import TriangleDivider from './TriangleDivider'
 import Socials from './Socials'
 import WaveDivider from './WaveDivider'
 

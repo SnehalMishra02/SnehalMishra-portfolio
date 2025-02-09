@@ -1,5 +1,4 @@
 import React from 'react'
-import TriangleDivider from './TriangleDivider'
 import ProjectCard from './ProjectCard'
 import WaveDivider from './WaveDivider'
 
