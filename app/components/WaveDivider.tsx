@@ -1,6 +1,10 @@
 import React from "react";
 
-const WaveDivider = ({clr}) => {
+interface WaveDividerProps {
+  clr:string;
+}
+
+const WaveDivider: React.FC<WaveDividerProps> = ({clr}) => {
   return (
     <div className="overflow-hidden">
       <svg
