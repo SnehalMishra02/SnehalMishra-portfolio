@@ -8,7 +8,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="w-full h-[10vh] flex items-center justify-center p-1 top-0 sticky z-10">
+    <div className="w-full h-[10vh] flex items-center justify-center p-1 top-0 fixed z-10">
       <div className="h-full w-[90%] rounded-3xl border-2 border-white bg-black bg-opacity-50 backdrop-blur-md flex justify-between items-center p-2">
         
         {/* Logo */}
@@ -38,7 +38,7 @@ const Header = () => {
         </div>
 
         {/* Mobile Menu Toggle */}
-        <div className="md:hidden flex items-center">
+        <div className="md:hidden flex items-center top-0 fixed">
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-white text-2xl">
             {menuOpen ? <FiX /> : <FiMenu />}
           </button>

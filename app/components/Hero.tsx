@@ -4,7 +4,7 @@ import './file.css'
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-b from-[#1e3c72] via-[#1e3c72] via-29% to-[#56b2d4] to-82% h-screen w-full" id='Me'>
+    <div className=" mt-[5vw] bg-gradient-to-b from-[#1e3c72] via-[#1e3c72] via-29% to-[#56b2d4] to-82% h-screen w-full" id='Me'>
       <div className='grid h-full grid-cols-4 grid-rows-3 p-3'>
         <div className='row-span-2 col-span-2 flex items-center justify-center max-sm:hidden'>
           <img className='max-h-[90%]' src="Me.png" alt="me" /></div>
