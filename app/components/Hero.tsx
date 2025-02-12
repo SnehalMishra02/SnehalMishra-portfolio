@@ -4,7 +4,7 @@ import './file.css'
 
 const Hero = () => {
   return (
-    <div className=" mt-[5vw] bg-gradient-to-b from-[#1e3c72] via-[#1e3c72] via-29% to-[#56b2d4] to-82% h-screen w-full" id='Me'>
+    <div className=" mt-[5vw] bg-gradient-to-b from-[#1e3c72] via-[#1e3c72] via-29% to-[#56b2d4] to-82% max-md:h-screen h-auto min-h-screen w-full" id='Me'>
       <div className='grid h-full grid-cols-4 grid-rows-3 p-3'>
         <div className='row-span-2 col-span-2 flex items-center justify-center max-sm:hidden'>
           <img className='max-h-[90%]' src="Me.png" alt="me" /></div>
@@ -21,9 +21,9 @@ const Hero = () => {
         </div>
 
         {/* Blogs */}
-        <div className='row-start-3 col-span-4 p-2 flex items-center gap-7 scroll1'>
+        <div className='row-start-3 col-span-4 p-2 flex items-center gap-7 scroll1 mb-7'>
           <h1 className='text-white text-[150%] font-extrabold mr-11 max-sm:hidden'>Read My Thoughts On: </h1>
-          <div className='overflow-auto flex'>
+          <div className='overflow-auto flex mb-7'>
           <BlogCard image="b1.avif" title="Upcoming! 🤚"/>
           <BlogCard image="b1.avif" title="Upcoming! 🤚"/>
           <BlogCard image="b1.avif" title="Upcoming! 🤚"/>
