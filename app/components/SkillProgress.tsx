@@ -33,7 +33,7 @@ const SkillProgress: React.FC<SkillProgressProps> = ({ title, skills }) => {
       <div className="relative max-w-md w-full bg-gray-900 p-5 rounded-lg rounded-t-none">
         {skills.map((skill, index) => (
           <div key={index} className="mb-6">
-            <span className="block text-sm font-semibold text-gray-300">{skill.name}</span>
+            <span className="block text-sm font-semibold text-gray-300">{skill.name}: {skill.percentage}%</span>
             <div className="w-full h-2 bg-gray-700 rounded-md mt-2 relative overflow-hidden">
               <div
                 className="h-full bg-gray-300 rounded-md transition-all duration-500 ease-in-out"

@@ -49,7 +49,7 @@ const Skills = () => {
             <h1 className='text-white text-[250%] px-6 py-2 font-extrabold mt-7 text-center'>My Skills</h1>
             <div className='m-3 mb-0 mr-0 pr-0 p-2 h-full w-[99vw] flex flex-wrap  justify-center items-start '>
               <SkillProgress title = "Web Front-end" skills = {basicFrontEnd}/>
-              <SkillProgress title = "DataBase Management" skills = {DBMS}/>
+              <SkillProgress title = "DBMS" skills = {DBMS}/>
               <SkillProgress title = "Web Back-end" skills = {Backend}/>
               <SkillProgress title = "Core" skills = {core}/>
               <SkillProgress title = "Coding Languages" skills = {codingLanguades}/>
